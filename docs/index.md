@@ -1,4 +1,5 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<h2>Hello</h2>
+<h2>follow the link</h2>
+<a href="/index.html">
+
 </html>
