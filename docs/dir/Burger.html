@@ -1,0 +1,169 @@
+<!doCType html5>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <title>Forms Review</title>
+  <style>
+    h1 {
+      color: green;
+      font: oblique;
+      opacity: 1;
+      
+    }
+    input {
+      border: 3rem;
+      color: rgb(244, 208, 98);
+      background-color: rgb(96, 81, 16);
+      opacity: .3;
+    }
+    html{
+      background-color: beige;
+    }
+    p{
+      color: black;
+      width: 5px;
+    }
+    .custom{
+      color: brown;
+    }
+  </style>
+</head>
+
+<body>
+  <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.10'><\/script>".replace("HOST", location.hostname));
+  //]]></script>
+  <section id="overlay">
+    <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg"
+      alt="Davie's Burgers Logo" id="logo">
+    <hr>
+    <form action="submission.html" method="POST">
+      <h1>Create a burger!</h1>
+      <section class="protein">
+        <label for="patty">What type of protein would you like?</label>
+        <input type="text" name="patty" id="patty">
+      </section>
+      <hr>
+      <section>
+        <a href = "para"><strong>move to para<strong></a>
+          <div>I love <span>gardening!</span></div>
+          <span>I love <div>gardening</div></span>
+          <a>I love <div>gardening<span>!</span></div></a>
+          </section>
+          
+      <section class="patties">
+        <label for="amount">How many patties would you like?</label>
+        <input type="number" name="amount" id="amount">
+      </section>
+      <hr>
+
+      <section class="cooked">
+        <label for="doneness">How do you want your patty cooked</label>
+        <br>
+        <span>Rare</span>
+        <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+        <span>Well-Done</span>
+      </section>
+      <hr>
+
+      <section class="toppings">
+        <span>What toppings would you like?</span>
+        <br>
+        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+        <label for="lettuce">Lettuce</label>
+        <input type="checkbox" name="topping" id="tomato" value="tomato">
+        <label for="tomato">Tomato</label>
+        <input type="checkbox" name="topping" id="onion" value="onion">
+        <label for="onion">Onion</label>
+      </section>
+      <hr>
+
+      <section class="cheesy">
+        <span>Would you like to add cheese?</span>
+        <br>
+        <input type="radio" name="cheese" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="cheese" id="no" value="yes">
+        <label for="no">No</label>
+      </section>
+      <hr>
+
+      <section class="bun-type">
+        <label for="bun">What type of bun would you like?</label>
+        <select name="bun" id="bun">
+          <option value="sesame">Sesame</option>
+          <option value="potatoe">Potato</option>
+          <option value="pretzel">Pretzel</option>
+        </select>
+      </section>
+      <hr>
+
+      <section class="sauce-selection">
+        <label for="sauce">What type of sauce would you like?</label>
+        <input list="sauces" id="sauce" name="sauce">
+        <datalist id="sauces">
+          <option value="ketchup"></option>
+          <option value="mayo"></option>
+          <option value="mustard"></option>
+        </datalist>
+      </section>
+      <hr>
+      <section class="extra-info">
+        <label for="extra">Anything else you want to add?</label>
+        <br>
+        <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+      </section>
+      <hr>
+
+      <section class="submission">
+        <input type="submit" value="Submit">
+      </section>
+    </form>
+  </section>
+  
+  <footer>
+    <p> &copy; All rights are reserved with me!
+      <hr>
+      <span>You are not &gt; me</span>
+      <span><br>Contrary you are &lt; me</span>
+    </p>
+    <p><span class = "custom" id = "para">THIS</span>&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH!
+      THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! THIS&nbsp;IS&nbsp;A&nbsp;DUMMY&nbsp;PARAGRAPH! </p>
+  </footer>
+
+  <div>Dear all,
+    <span>I took this really cool course
+    </span></div>
+    <span>on Coursera.org. I think it's
+    my favorite course I've EVER taken!
+    Here is the URL for it:
+    </span>
+    <a href="...">HTML, CSS and JS for Web Developers</a>
+    <div>
+    Does anyone know how I can give this course 6
+    out of 5 stars?
+    </div>
+    <div>
+    Thank you,
+    -Yaakov.... I mean a random student! Definitely not Yaakov.
+    </div>
+    <a>I love <div>gardening<span>!</span></div></a>    
+</body>
+
+</html>
